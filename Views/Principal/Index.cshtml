@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="~/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <title>A Web Page</title>
+</head>
+<body>
+  <h1>Here are some delicious foods!</h1>
+  <ul>
+    @{
+      List<string> FoodsList = new List<string>() {"Apple Pie", "Pizza", "Cinnamon Rolls", "Lasagne", "Donuts", "Chocolate Cake", "Burritos"};
+      foreach(string food in FoodsList){
+        if(food[0] == 'C'){
+          <li class="red"><p>@food</p></li>
+        }else{
+          <li><p>@food</p></li>
+        }
+      }
+    }
+  </ul>
+</body>
+</html>

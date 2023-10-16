@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "ojMKMLACffwglE3HZmC9ZqN6s6twWb8KjUzIR1CikX4=",
+  "Source": "RazorDivertido",
+  "BasePath": "_content/RazorDivertido",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RazorDivertido\\wwwroot",
+      "Source": "RazorDivertido",
+      "ContentRoot": "D:\\Rodrigo\\Bootcamp Sonda\\C#-.Net\\practicas\\C#.Net\\RazorDivertido\\wwwroot\\",
+      "BasePath": "_content/RazorDivertido",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Rodrigo\\Bootcamp Sonda\\C#-.Net\\practicas\\C#.Net\\RazorDivertido\\wwwroot\\css\\styles.css",
+      "SourceId": "RazorDivertido",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Rodrigo\\Bootcamp Sonda\\C#-.Net\\practicas\\C#.Net\\RazorDivertido\\wwwroot\\",
+      "BasePath": "_content/RazorDivertido",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    }
+  ]
+}
